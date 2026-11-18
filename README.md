@@ -4,7 +4,7 @@ Trabajo práctico de **Infraestructura para la ciencia de datos**. Calculadora d
 viaje por Argentina: compara manejar a ~100 km/h y a ~130 km/h, con el precio del litro estimado por
 provincia para la fecha del viaje, el clima de ese día y las estaciones más baratas cerca de la ruta.
 
-**App online:** _(link pendiente)_
+**App online:** https://costo-viaje-combustible.streamlit.app
 
 ## Qué hay adentro
 - **Datos públicos descargados por código**: precios en surtidor (Secretaría de Energía, 3,3 millones de

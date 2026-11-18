@@ -4,7 +4,7 @@ El usuario elige vehículo, origen, destino y fecha; la app estima cuánto gasta
 a ~100 km/h y a ~130 km/h, con el precio estimado por provincia y el clima de ese día.
 
 ## Ver la app online
-App publicada en Streamlit Community Cloud: _(link pendiente)_. Usa los datos procesados incluidos en el
+App publicada en Streamlit Community Cloud: https://costo-viaje-combustible.streamlit.app . Usa los datos procesados incluidos en el
 repositorio; la ruta y el clima se consultan en vivo.
 
 ## Requisitos
