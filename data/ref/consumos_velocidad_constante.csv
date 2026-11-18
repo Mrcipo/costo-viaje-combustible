@@ -1,0 +1,17 @@
+marca,modelo,version_probada,combustible,consumo_100_l100,consumo_130_l100,consumo_urbano_l100,id_base_relacionado,tipo_fuente,fuente_url,nota
+Fiat,Cronos,1.3 MT5,nafta,5.3,7.3,8.8,FIA-CRO-01,datos de Fiat Argentina citados por tercero,https://www.mercadolibre.com.ar/blog/mo-consumo-fiat-cronos-motor-1-3,La nota atribuye las cifras a especificaciones de Fiat Argentina (julio 2026).
+Chevrolet,Onix,1.0 turbo,nafta,5.0,6.7,8.8,CHE-ONI-01,prueba independiente (Auto Test),https://autotest.com.ar/noticias/onix-consumo-pulgar-arriba/,
+Toyota,Yaris,1.5,nafta,5.7,7.6,9.5,TOY-YAR-01,prueba independiente (Auto Test),https://autotest.com.ar/comparativos/consumos-cinco-puertas-segmento-b/,No se aclara caja: se relaciona con la manual.
+Fiat,Argo,Drive 1.3,nafta,6.4,,9.8,FIA-ARG-01,prueba independiente (Auto Test),https://autotest.com.ar/comparativos/consumos-cinco-puertas-segmento-b/,Sin dato a 130 km/h.
+Volkswagen,Polo,versión no especificada,nafta,5.6,6.5,12.0,,prueba independiente (Auto Test),https://autotest.com.ar/comparativos/consumos-cinco-puertas-segmento-b/,Motor no especificado: no se relaciona con la base.
+Peugeot,208,T200 1.0 turbo,nafta,6.7,8.8,12.5,PEU-208-03,prueba independiente (Auto Test),https://autotest.com.ar/noticias/guia-de-compra-peugeot-208/,
+Peugeot,208,1.6 AT (generación anterior),nafta,6.6,7.7,,,prueba independiente (Auto Test),https://autotest.com.ar/noticias/prueba-de-consumo-peugeot-208/,Generación anterior: solo para validar la relación 130/100.
+Peugeot,208,1.6 MT5 Allure (generación anterior),nafta,5.9,7.4,8.7,,prueba independiente (Auto Test),https://autotest.com.ar/noticias/prueba-de-consumo-peugeot-208/,Generación anterior: solo para validar la relación 130/100.
+Toyota,Corolla Cross,2.0 nafta CVT,nafta,5.1,8.5,13.1,,prueba independiente (Auto Test),https://autotest.com.ar/pruebas/test-drive-toyota-corolla-cross-xei-2-0/,No está en la base de etiquetas (falta fuente oficial argentina).
+Volkswagen,Taos,1.4 250 TSI AT8 (2026),nafta,5.5,7.1,13.5,,prueba independiente (Auto Test),https://autotest.com.ar/pruebas/volkswagen-taos-2026-test-drive/,
+Volkswagen,Taos,1.4 250 TSI AT6 (anterior),nafta,5.7,8.3,,,prueba independiente (Auto Test),https://autotest.com.ar/comparativos/toyota-corolla-cross-vs-volkswagen-taos-consumo,
+Chevrolet,Tracker,1.2 turbo,nafta,5.6,7.1,,,prueba independiente (Auto Test),https://autotest.com.ar/noticias/prueba-de-consumo-chevrolet-tracker/,Convertido de 17.8 y 14 km/l.
+Renault,Kwid,1.0,nafta,5.8,8.0,,REN-KWI-01,prueba independiente (Auto Test),https://autotest.com.ar/comparativos/fiat-mobi-vs-renault-kwid-consumo/,
+Toyota,Hilux,2.8 turbodiésel 204 cv,diesel,7.6,9.9,12.7,TOY-HIL-01,medición periodística citada por C5N,https://www.c5n.com/autos/cuanto-consume-el-vehiculo-mas-vendido-la-argentina-2026-n229855,Versión SRV/SRX 2.8; se relaciona con la SRV AT 4x2.
+Volkswagen,Amarok,2.0 TDI,diesel,6.0,8.6,10.2,,pruebas independientes citadas por Mercado Libre,https://www.mercadolibre.com.ar/blog/mo-consumo-amarok-2-0-tdi,
+Renault,Sandero,RS 2.0 MT6,nafta,6.7,,,REN-SAN-03,prueba independiente (Auto Test),https://autotest.com.ar/pruebas/renault-sandero-r-s/,Medido en 6ta marcha. Sin dato a 130.

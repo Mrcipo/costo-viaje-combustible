@@ -1,0 +1,17 @@
+# Datos crudos (~770 MB) y caché de APIs: se regeneran con `docker compose run --rm datos`
+data/raw/
+data/cache/
+*.parcial
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secretos y entornos locales
+.env
+.env.*
+.streamlit/secrets.toml
+.venv/
+venv/

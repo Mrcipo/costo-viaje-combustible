@@ -1,0 +1,23 @@
+{
+  "filas_leidas": 3383105,
+  "precios_invalidos_descartados": 235,
+  "fechas_invalidas_descartadas": 325,
+  "ejemplos_fechas_invalidas": [
+    "20/07/2007 10:30",
+    "20/07/2007 10:30",
+    "01/01/1572 00:00",
+    "01/01/1572 00:00",
+    "01/01/0008 08:00",
+    "01/01/0008 08:00",
+    "02/01/0002 19:45",
+    "02/01/0002 19:45"
+  ],
+  "provincias_no_reconocidas": {},
+  "estacion_mes_total": 3191786,
+  "estacion_mes_fuera_de_rango_excluidos": 40324,
+  "estacion_mes_fuera_de_rango_informados": 21695,
+  "provincia_mes_total": 13388,
+  "provincia_mes_no_confiables_excluidos": 551,
+  "min_estaciones": 3,
+  "meses_arrastre_precio": 3
+}

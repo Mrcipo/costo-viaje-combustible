@@ -1,0 +1,27 @@
+# Una sola imagen (costo-viaje:1.0) que comparten los dos servicios.
+# Primero:  docker compose build      (se construye una sola vez)
+
+services:
+  # Descarga y procesa los datos:   docker compose run --rm datos
+  datos:
+    build: .
+    image: costo-viaje:1.0
+    volumes:
+      - .:/app
+    command: python -m src.pipeline
+
+  # App (Streamlit) + Jupyter:      docker compose up app
+  #   App:     http://localhost:8501
+  #   Jupyter: http://localhost:8888
+  app:
+    image: costo-viaje:1.0
+    pull_policy: never
+    depends_on: []
+    volumes:
+      - .:/app
+    ports:
+      # Sólo en esta computadora (127.0.0.1): Jupyter corre sin contraseña.
+      - "127.0.0.1:8501:8501"
+      - "127.0.0.1:8888:8888"
+    # Una sola línea a propósito: si se parte en varias, YAML conserva los saltos y Streamlit no arranca.
+    command: ["sh", "-c", "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --ServerApp.token='' --ServerApp.root_dir=/app & exec streamlit run app/app.py --server.address=0.0.0.0 --server.port=8501 --server.headless=true --browser.gatherUsageStats=false --server.fileWatcherType=poll"]
